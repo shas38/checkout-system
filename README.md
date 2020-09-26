@@ -2,6 +2,12 @@
 
 This project implements a checkoutSystem class which can take in a pricing rules dictionary and apply different pricing models based on the item SKU. 
 
+A few examples of pricing rules:
+
+- we're going to have a 3 for 2 deal on Apple TVs. For example, if you buy 3 Apple TVs, you will pay the price of 2 only
+- the brand new Super iPad will have a bulk discounted applied, where the price will drop to $499.99 each, if someone buys more than 4
+- we will bundle in a free VGA adapter free of charge with every MacBook Pro sold
+
 
 The project uses the following technologies:
 - Backend: NodeJs
