@@ -34,4 +34,9 @@ export default class CheckoutSystem{
         if(this.debug) console.log(`The total price is $${this.totalPrice}`);
         return this.totalPrice;
     }
+
+    getItems(){
+        if(this.debug) console.log(this.items);
+        return this.items;
+    }
 }
