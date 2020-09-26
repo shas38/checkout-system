@@ -8,6 +8,8 @@ A few examples of pricing rules:
 - the brand new Super iPad will have a bulk discounted applied, where the price will drop to $499.99 each, if someone buys more than 4
 - we will bundle in a free VGA adapter free of charge with every MacBook Pro sold
 
+Example scenarios
+-----------------
 
 | SKU     | Name        | Price    |
 | --------|:-----------:| --------:|
@@ -15,10 +17,6 @@ A few examples of pricing rules:
 | mbp     | MacBook Pro | $1399.99 |
 | atv     | Apple TV    | $109.50  |
 | vga     | VGA adapter | $30.00   |
-
-
-Example scenarios
------------------
 
 SKUs Scanned: atv, atv, atv, vga
 Total expected: $249.00
