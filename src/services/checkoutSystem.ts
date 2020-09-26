@@ -1,5 +1,10 @@
 interface Iitems { [key: string]: number; }
 interface IpriceRules { [key: string]: (items: Iitems, price: number) => number; }
+interface Iitem {
+    sku: string;
+    name: string;
+    price: number;
+}
 export default class CheckoutSystem{
     priceRules: IpriceRules
     items: Iitems
@@ -13,7 +18,7 @@ export default class CheckoutSystem{
         this.totalPrice = 0;
     }
 
-    scan(item){
+    scan(item: Iitem){
         this.items[item.sku] = this.items[item.sku] + 1 || 1; 
 
         if(this.priceRules[item.sku]){
