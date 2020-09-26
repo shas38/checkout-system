@@ -9,6 +9,26 @@ A few examples of pricing rules:
 - we will bundle in a free VGA adapter free of charge with every MacBook Pro sold
 
 
+| SKU     | Name        | Price    |
+| --------|:-----------:| --------:|
+| ipd     | Super iPad  | $549.99  |
+| mbp     | MacBook Pro | $1399.99 |
+| atv     | Apple TV    | $109.50  |
+| vga     | VGA adapter | $30.00   |
+
+
+Example scenarios
+-----------------
+
+SKUs Scanned: atv, atv, atv, vga
+Total expected: $249.00
+
+SKUs Scanned: atv, ipd, ipd, atv, ipd, ipd, ipd
+Total expected: $2718.95
+
+SKUs Scanned: mbp, vga, ipd
+Total expected: $1949.98
+
 The project uses the following technologies:
 - Backend: NodeJs
 - Type Checking: Typescript
