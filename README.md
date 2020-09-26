@@ -27,11 +27,11 @@ Total expected: $2718.95
 SKUs Scanned: mbp, vga, ipd
 Total expected: $1949.98
 
+<img src="images/checkout-system.PNG">
+
 The project uses the following technologies:
 - Backend: NodeJs
 - Type Checking: Typescript
-
-<img src="images/checkout-system.PNG">
 
 ## Getting Started
 
