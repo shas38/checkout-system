@@ -17,7 +17,7 @@ describe('Tests for the ipd price rules', () => {
     const RESULT = ipdPriceRules(items, price, bulkPrice);
 
     //Assert
-    expect(RESULT).toEqual(priceRules);
+    expect(RESULT).toEqual(price);
 
   });
 
