@@ -39,4 +39,10 @@ export default class CheckoutSystem{
         if(this.debug) console.log(this.items);
         return this.items;
     }
+
+    clear(){
+        this.totalPrice = 0;
+        this.items = {};
+    }
+    
 }
